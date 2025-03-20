@@ -65,5 +65,5 @@ sudo apt-get update && sudo apt-get install -y \
 
 ### Task 2
 * This is a physical world simulation of a drone flying autonomously in a square route moving upwards in a spiral-like fashion.
-* Kindly note, that the Gazebo world might take a few minutes to load depending on your computer's resources.
+* Kindly note, that the Gazebo world might take a few minutes to load depending on your computer's available resources.
 > ros2 launch task2 drone_sim.launch.py 
