@@ -19,7 +19,36 @@ by Yair Barzilay
 
 ### Building in a workspace
 * Make sure you have the following dependencies installed:
-> sudo apt install ros-humble-gazebo-ros ros-humble-gazebo-plugins ros-humble-joy ros-humble-teleop-twist-joy ros-humble-imu-tools ros-humble-robot-localization
+```
+sudo apt-get update && sudo apt-get install -y \
+    ros-humble-robot-localization \
+    ros-humble-gazebo-ros \
+    ros-humble-gazebo-plugins \
+    ros-humble-rviz2 \
+    ros-humble-joy \
+    ros-humble-cv-bridge \
+    ros-humble-image-transport \
+    ros-humble-map-msgs \
+    ros-humble-resource-retriever \
+    ros-humble-rviz-common \
+    ros-humble-rviz-rendering \
+    xterm \
+    libboost-all-dev \
+    qtbase5-dev \
+    ros-humble-imu-tools \
+    ros-humble-teleop-twist-keyboard \
+    libqt5core5a \
+    libqt5gui5 \
+    libqt5opengl5 \
+    libqt5widgets5 \
+    ros-humble-ament-cmake-clang-format \
+    ros-humble-joint-state-publisher \
+    ros-humble-xacro \
+    x11-apps \
+    libgl1-mesa-glx \
+    libglib2.0-0
+```
+
 
 * Then simply build your ros2 workspace as you would on any given monday.
 
