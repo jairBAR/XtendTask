@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>task2</name>
+  <version>0.0.0</version>
+  <description>The package for XTEND's task1 </description>
+  <maintainer email="jair.barzilay@gmail.com">Yair</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <depend>stju_drone</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

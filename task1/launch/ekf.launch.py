@@ -46,9 +46,6 @@ def generate_launch_description():
                 name='ekf_se_odom',
                 output='screen',
                 parameters=[LaunchConfiguration('config')],
-                remappings=[
-                    ('odometry/filtered', 'odometry/odometry_imu'),
-                ],
             )]),
         
         TimerAction(
