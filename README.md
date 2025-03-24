@@ -100,7 +100,7 @@ In the following picture is an XY plot of the position estimation (the sum produ
 ## Task 2 - Gazebo Simulation
 * The task specified "using ROS (1 or 2) to simulate a robot flying/driving in a cluttered environment. You may choose your sensors, and/or use gazebo data for the position estimation. The movement should mainly be autonomous."
 * A swift google search turned up [stju_drone](https://github.com/NovoG93/sjtu_drone) an open sourced (although GPL licensed) package for simulating a drone flying in some world scene.
-* Addimatedly, I had to apply a minor fix to their drone control python script to make it work (they have an import error). However the simulation works.
+* Admittedly, I had to apply a minor fix to their drone control python script to make it work (they have an import error). However the simulation works.
 * As can be seen, this simulates a drone flying around autnomously in a rising sqaure configuration (helix-like).
 * The simulated drone has 4 sensors:
 1) Camera front
