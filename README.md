@@ -70,7 +70,7 @@ sudo apt-get update && sudo apt-get install -y \
 
 ---
 
-# The assignment
+# The Assignment
 
 ## Task 1 - Sensor Fusion
 * The supplied data was given in a spreadsheet format with one time column hinting at a 'us' time unit and two sensor readings in units of cm/s.
